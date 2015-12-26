@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="liststyle.xsl"?>
+<catalog xmlns="users.metropolia.fi/~tuomavt/catalog"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:rating="users.metropolia.fi/~tuomavt/rating"
+xsi:schemaLocation="users.metropolia.fi/~tuomavt/catalog catalog.xsd">
+
+    <cd>
+        <title>The Ape of Naples</title>
+        <artist>Coil</artist>
+        <country>England</title>
+        <company>Threshold House</company>
+        <price>200.0</price>
+        <year>2005</year>
+        <rating:rating>***</rating:rating>
+    </cd>
+
+    <cd>
+        <title>Just for a Day</title>
+        <artist>Slowdive</artist>
+        <country>England</title>
+        <company>Creation Records</company>
+        <price>30.0</price>
+        <year>1991</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+
+    <cd>
+        <title>Mezzanine</title>
+        <artist>Massive Attack</artist>
+        <country>England</title>
+        <company>Virgin Records</company>
+        <price>8.0</price>
+        <year>1998</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+
+    <cd>
+        <title>Opus Eponymous</title>
+        <artist>Ghost</artist>
+        <country>Swedish</title>
+        <company>Rise Above Records</company>
+        <price>200.12</price>
+        <year>2010</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+
+    <cd>
+        <title>Fire of Unknown Origin</title>
+        <artist>Blue Öyster Cult</artist>
+        <country>USA</title>
+        <company>Columbia Records</company>
+        <price>8.0</price>
+        <year>1981</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+
+    <cd>
+        <title>Time I</title>
+        <artist>Wintersun</artist>
+        <country>Finland</title>
+        <company>Nuclear Blast</company>
+        <price>10.1</price>
+        <year>2012</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+
+    <cd>
+        <title>null</title>
+        <artist>null</artist>
+        <country>null</title>
+        <company>null</company>
+        <price>0.0</price>
+        <year>0</year>
+        <rating:rating>null</rating:rating>
+    </cd>
+
+</catalog>

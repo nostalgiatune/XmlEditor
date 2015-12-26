@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+xmlns:catalog="users.metropolia.fi/~tuomavt/catalog"
+xmlns:rating="users.metropolia.fi/~tuomavt/rating">
+    
+    <xsl:template match="/">
+        <html>
+            <body>
+                <h2>Catalog</h2>
+                <table border="1">
+                    <tr bgcolor="#9acd32">
+                        <th>Artist</th>
+                        <th>Title</th>
+                        <th>Rating</th>
+                    </tr>
+                    <xsl:for-each select="catalog:catalog/catalog:cd">
+                        <tr>
+                            <td><xsl:value-of select="catalog:artist" /></td>
+                            <td><xsl:value-of select="catalog:title" /></td>
+                            <td><xsl:value-of select="rating:rating" /></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>

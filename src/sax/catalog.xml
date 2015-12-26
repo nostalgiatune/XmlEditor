@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="liststyle.xsl"?>
+
+<catalog xmlns="users.metropolia.fi/~tuomavt/catalog"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:rating="users.metropolia.fi/~tuomavt/rating"
+xsi:schemaLocation="users.metropolia.fi/~tuomavt/catalog catalog.xsd">
+    
+    <cd>
+        <title>The Ape of Naples</title>
+        <artist>Coil</artist>
+        <country>England</country>
+        <company>Threshold House</company>
+        <price>200</price>
+        <year>2005</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+    
+    <cd>
+        <title>Just for a Day</title>
+        <artist>Slowdive</artist>
+        <country>England</country>
+        <company>Creation Records</company>
+        <price>30</price>
+        <year>1991</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+	
+	<cd>
+        <title>Mezzanine</title>
+        <artist>Massive Attack</artist>
+        <country>England</country>
+        <company>Virgin Records</company>
+        <price>8</price>
+        <year>1998</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+	
+	<cd>
+        <title>Opus Eponymous</title>
+        <artist>Ghost</artist>
+        <country>Swedish</country>
+        <company>Rise Above Records</company>
+        <price>20</price>
+        <year>2010</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+	
+	<cd>
+        <title>Fire of Unknown Origin</title>
+        <artist>Blue Öyster Cult</artist>
+        <country>USA</country>
+        <company>Columbia Records</company>
+        <price>8</price>
+        <year>1981</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+	
+	<cd>
+        <title>Time I</title>
+        <artist>Wintersun</artist>
+        <country>Finland</country>
+        <company>Nuclear Blast</company>
+        <price>15</price>
+        <year>2012</year>
+        <rating:rating>*****</rating:rating>
+    </cd>
+    
+</catalog>
